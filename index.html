@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/accordion.css">
+    <link rel="stylesheet" href="css/resposive.css">
+    <link rel="stylesheet" href="css/modal-gallery.css">
+    <link rel="icon" href="img/airpods-black.png">
+    <title>AirMusic</title>
+</head>
+<body class="body-container">
+    <main class="main-wrapper">
+        <!-- This is the navigation of my website -->
+        <header class="header-container ">
+            <div class="header-container__div-header d-flex container">
+                <div class="header-container__title-div d-flex"> 
+                    <h1 class="header-container__title">airmusic</h1>
+                    <div class="header-container__menu-icon-transform" onclick="myFunction(this)" id="header-container__drop-down-menu">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <nav class="header-container__nav-header d-flex">
+                    <ul class="header-container__menu d-flex">
+                        <li class="header-container__menu-item"><a href="" class="header-container__menu-link">home</a></li>
+                        <li class="header-container__menu-item"><a href="" class="header-container__menu-link">about</a></li>
+                        <li class="header-container__menu-item"><a href="" class="header-container__menu-link">specifications</a></li>
+                        <li class="header-container__menu-item"><a href="" class="header-container__menu-link">facture</a></li>
+                        <li class="header-container__menu-item"><a href="" class="header-container__menu-link">faq</a></li>
+                        <li class="header-container__menu-item"><a href="" class="header-container__menu-link">contact us</a></li>
+                    </ul>
+                </nav>
+                <div class="header-container__btn-header d-flex">
+                <button class="btn-order-now btn-order-now--btn-header">order now</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hare starts the hero image section or the first section of my website -->
+        <section class="section-container container d-flex ">      
+            <div class="section-container__first-container d-flex">
+                <div class="section-container__container-left ">
+                    <div class="section-container__title-container">
+                        <h1 class="section-container__title">Airmusic awesome sounds</h1>
+                    </div>
+                    <div class="section-container__paragraph-container">
+                        <p class="section-container__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                            ex ea commodo consequat. 
+                        </p>
+                        </div>
+            
+                    <div class="section-container__button-container">
+                        <button class="btn-order-now btn-order-now--btn-hero-image">order now</button>
+                    </div>
+                </div>
+                <div class="section-container__container-right d-flex">
+                    <figure class="section-container__figure-audi d-flex">
+                        <img src="img/airpods-wireless-headphonesWHITE.png" class="section-container__img1" alt="">
+                    </figure>
+                </div>
+            </div>    
+        </section>
+        <!--second sector- only one div was used to make the relative position in the father and the adsolute one in the son-->
+        <section class="section-container-two d-flex">
+            <h2 class="section-container-two__title">Greatest Specifications</h2>
+            <p class="section-container-two__paragraph">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+            <img src="img/airpods-wireless-vertical.png" class="section-container-two__img-vertical" alt="" >
+        </section>
+        <!--third section where display flex was used to order the cards and we use in the gird style-->
+        <section class="section-container-three">
+            <section class="section-container-three__facture container">  
+                <h2 class="section-container-three__title">Features</h2>
+                <div class="section-container-three__cards-container">
+                    <div class="section-container-three__first d-flex">
+                        <img src="img/icons/mobil-music.png" class="icons icons--mobil-music" alt="">
+                        <h3 class="title title--first">Great Quality</h3>
+                        <p class="paragraph paragraph--first">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloremque fugit obcaecati delectus.
+                        </p>
+                    </div>
+                    <div class="section-container-three__first d-flex">
+                        <img src="img/icons/sound.png" class="icons icons--sound" alt="">
+                        <h3 class="title title--second">Great Quality</h3>
+                        <p class="paragraph paragraph--first">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloremque fugit obcaecati delectus. 
+                        </p>
+                    </div>
+                    <div class="section-container-three__first d-flex">
+                        <img src="img/icons/music.png" class="icons icons--music" alt="">
+                        <h3 class="title title--three">Great Quality</h3>
+                        <p class="paragraph paragraph--first">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloremque fugit obcaecati delectus. 
+                        </p>
+                    </div>
+                <!-- </div> -->
+                <!-- <div class="section-container-three__cards-container"> -->
+                    <div class="section-container-three__first d-flex">
+                        <img src="img/icons/headset.png" class="icons icons--headset" alt="">
+                        <h3 class="title title--first">Great Quality</h3>
+                        <p class="paragraph paragraph--first">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloremque fugit obcaecati delectus.
+                        </p>
+                    </div>
+                    <div class="section-container-three__first d-flex">
+                        <img src="img/icons/plus.png" class="icons icons--plus" alt="">
+                        <h3 class="title title--first">Great Quality</h3>
+                        <p class="paragraph paragraph--first">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloremque fugit obcaecati delectus.
+                        </p>
+                    </div>
+                    <div class="section-container-three__first d-flex">
+                        <img src="img/icons/star.png" class="icons icons--star" alt="">
+                        <h3 class="title title--first">Great Quality</h3>
+                        <p class="paragraph paragraph--first">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic doloremque fugit obcaecati delectus.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <!-- container FAQ -->
+        <section class="section-container-faq d-flex">
+            <figure class="section-container-faq__container-img">
+            <img src="img/storage-box.png" class="section-container-faq__img-position" alt="">
+            </figure>
+            <div class="section-container-faq__information-container ">
+                <h3 class="section-container-faq__title">faq</h3>
+                <p class="section-container-faq__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptate excepturi dicta cumque, repellat rem doloremque, culpa illum facere laudantium vitae, possimus aut.
+                </p>
+            </div>
+            <div class="section-container-faq__drop-down-menu">
+               <div class="container-accordion">
+                <button class="accordion">Lorem ipsum dolor sit amet</button>
+                    <p class="panel">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="container-accordion">
+                <button class="accordion">Lorem ipsum dolor sit amet</button>
+                    <p class="panel">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="container-accordion">
+                    <button class="accordion">Lorem ipsum dolor sit amet</button>
+                    <p class="panel">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="container-accordion">
+                    <button class="accordion">Lorem ipsum dolor sit amet</button>
+                    <p class="panel">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="container-accordion">
+                    <button class="accordion">Lorem ipsum dolor sit amet</button>
+                    <p class="panel">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+                <div class="container-accordion">
+                <button class="accordion">Lorem ipsum dolor sit amet</button>
+                    <p class="panel">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+        </section>        
+        <!-- container four -->
+        <section class="section-container-four d-flex">
+            <div class="section-container-four__principal d-flex">
+                <h3 class="section-container-four__title">Order Now</h3>
+                <p class="section-container-four__paragraph">
+                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam aut cum quas corrupti quo id minima deserunt eveniet illum magnam nostrum porro nam, cupiditate corporis rem esse ex recusandae numquam?
+                </p>
+                <div class="section-container-four__select-color-container d-flex">
+                  <h3 class="section-container-four__subtitle d-flex">Select Color</h3> 
+                  <span class="section-container-four__color section-container-four__color--black"></span>
+                  <span class="section-container-four__color section-container-four__color--white"></span>
+                  <span class="section-container-four__color section-container-four__color--red"></span>
+                  <span class="section-container-four__color section-container-four__color--blue"></span>
+                </div>
+                <div class="section-container-four__pu-price">
+                    <div class="section-container-four__pu d-flex">
+                        <label class="section-container-four__label-price">
+                            <input type="text" value=" 1x " class="section-container-four__input">
+                            $39.99
+                        </label>            
+                    </div>
+                    <div class="section-container-four__btn-order-now">
+                        <button class="btn-order-now btn-order-now--btn-hero-image">order now</button>    
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <!-- section container five -->
+        <section class="section-container-five">
+            <h1 class="section-container-five__title">photo gallery</h1>
+            <div class="section-container-five__gallery cursor d-flex">
+                <figure class="section-container-five__gallery-img">    
+                    <img src="img/gallery/pexels-photo-248510.png" alt="" class="section-container-five__img section-container-five__img--first-img" id="myImg" onclick="openModal();currentSlide(1)"> 
+                </figure>
+                <figure class="section-container-five__gallery-img d-flex">  
+                    <img src="img/gallery/mobile-phone-iphone-music-38295.png" alt="" class="section-container-five__img" id="myImg" onclick="openModal();currentSlide(2)">
+                    <img src="img/gallery/mobile-phone-samsung-music-39592.png" alt="" class="section-container-five__img" id="myImg" onclick="openModal();currentSlide(3)"> 
+                </figure>
+                <figure class="section-container-five__gallery-img d-flex">    
+                    <img src="img/gallery/pexels-photo-669005.png" alt="" class="section-container-five__img" id="myImg" onclick="openModal();currentSlide(4)">              
+                    <img src="img/gallery/desk-technology-music-white.png" alt="" class="section-container-five__img" id="myImg" onclick="openModal();currentSlide(5)">
+                </figure>
+            </div>
+            <div id="myModal" class="modal">
+                    <span class="close cursor" onclick="closeModal()">&times;</span>
+                <div class="modal-content">  
+                    <div class="mySlides">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="img/gallery/pexels-photo-248510.png" class="modal-img">
+                    </div>                
+                    <div class="mySlides">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="img/gallery/mobile-phone-iphone-music-38295.png" class="modal-img">
+                    </div>                
+                    <div class="mySlides">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="img/gallery/mobile-phone-samsung-music-39592.png" class="modal-img">
+                    </div>                    
+                    <div class="mySlides">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="img/gallery/pexels-photo-669005.png" class="modal-img">
+                    </div>                    
+                    <div class="mySlides">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="img/gallery/desk-technology-music-white.png" class="modal-img">
+                    </div>                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>               
+            </div>
+        </section>
+        <section class="section-container-six d-flex">
+            <!-- <fieldset class="section-container-six__contact-container d-flex">
+                <legend class="section-container-six__contact-us"> 
+                    Contact Us 
+                </legend>
+                <p class="section-container-six__paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quae soluta ratione qui at quo fugit minima in officiis eveniet
+                </p>
+            </fieldset> -->
+            <div class="section-container-six__contact-us d-flex">
+                <h1 class="section-container-six__title-contact">Contact Us</h1>
+                <p class="section-container-six__paragraph-contact">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quae soluta ratione qui at quo fugit minima in officiis eveniet
+                </p>
+            </div>
+            <form class="section-container-six__contact-from d-flex">
+                <div class=" section-container-six__label-container d-flex">
+                    <label class="section-container-six__label section-container-six__label--name">
+                    Full Name
+                    </label>
+                    <input type="text" class="section-container__text section-container__text--box-full-name">
+                </div>
+                <div class="section-container-six__label-container d-flex">
+                    <label class="section-container-six__label section-container-six__label--email">
+                        Email
+                    </label>
+                    <input type="text" class="section-container__text section-container__text--box-email">
+                </div>
+            </form>
+            <form class="section-container-six__from-text-area d-flex">
+                <label for=""class="section-container-six__label section-container-six__label--description">
+                    Comments  
+                </label>  
+                <textarea class="section-container-six__text-area"></textarea>              
+            </form>
+            <button class="btn-order-now btn-order-now--btn-hero-image btn-enviar">Enviar</button>
+        </section>
+        <!-- footer container -->
+        <main class="main-wrapper-footer">
+            <footer class="footer-container d-flex">
+                <figure class="footer-container__img-container">
+                    <img class="footer-container__airpod-black" src="img/airpods-black.png" alt="">
+                </figure>
+                <p class="footer-container__title"> &copy; Copyrigthts airmusic 2019</p>
+                <div class="footer-container__social-networks d-flex">
+                    <figure class="footer-container__icons-social-networks">
+                        <img src="img/icons/twitter.png" alt="" class="footer-container-title__icon">
+                    </figure>
+                    <figure class="footer-container__icons-social-networks">
+                        <img src="img/icons/facebook.png" alt="" class="footer-container-title__icon">
+                    </figure>
+                    <figure class="footer-container__icons-social-networks">
+                        <img src="img/icons/linkedin.png" alt="" class="footer-container-title__icon">
+                    </figure>
+                </div>
+            </footer>
+        </main>
+    </main> 
+    
+</body>
+<script src="js/script.js"></script>
+<script>
+    
+    </script>
+</html>
