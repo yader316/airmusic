@@ -562,9 +562,9 @@
     }
     .section-container{
         width: 100%;
-        background: url(..//img/airpods-wireless-vertical.png) no-repeat;
-        background-size: 25%;
-        background-position-x: 270px;
+        background: url(..//img/airpods-wireless-headphonesWHITE.png) no-repeat;
+        background-size: 35%;
+        background-position-x: 240px;
         background-position-y: 10px; 
     }  
     .section-container__container-left{
